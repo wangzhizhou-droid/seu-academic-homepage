@@ -1,13 +1,11 @@
 const profile = {
-  name: "你的名字",
-  englishName: "Your Name",
+  Name: "Wangzhi Zhou",
   initials: "YN",
-  department: "你的学院 / School of ______",
-  university: "东南大学 / Southeast University",
-  degree: "本科三年级 / Undergraduate, Year 3",
-  email: "yourname@seu.edu.cn",
-  github: "https://github.com/yourname",
-  graduation: "2027",
+  department: "School of Mathematics",
+  university: "Southeast University",
+  degree: "Undergraduate",
+  email: "wangzhizhou474@gmail.com",
+  github: "https://github.com/wangzhizhou",
 };
 
 const news = [
