@@ -11,6 +11,9 @@ const nextConfig: NextConfig = {
   basePath,
   assetPrefix: basePath,
   trailingSlash: isGitHubPages,
+  typescript: {
+    tsconfigPath: isGitHubPages ? "tsconfig.github.json" : "tsconfig.json",
+  },
 };
 
 export default nextConfig;
