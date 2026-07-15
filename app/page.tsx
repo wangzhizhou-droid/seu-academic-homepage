@@ -1,11 +1,13 @@
 const profile = {
-  Name: "Wangzhi Zhou",
-  initials: "YN",
+  name: "Wangzhi Zhou",
+  englishName: "Wangzhi Zhou",
+  initials: "WZ",
   department: "School of Mathematics",
   university: "Southeast University",
   degree: "Undergraduate",
   email: "wangzhizhou474@gmail.com",
-  github: "https://github.com/wangzhizhou",
+  github: "https://github.com/wangzhizhou-droid",
+  graduation: "2027",
 };
 
 const news = [
