@@ -138,10 +138,8 @@ export default function Home() {
 
         <section className="prose-section" id="biography">
           <p>
-            Welcome to my homepage! 我是东南大学的一名大三本科生。目前，我正在通过课程学习、项目实践与论文阅读探索自己的研究兴趣，并持续提升独立分析问题和完成项目的能力。
-          </p>
-          <p>
-            我对算法、数据与智能系统相关问题感兴趣，也愿意了解计算机技术在不同学科中的应用。这个网站用于记录我的学习经历、项目工作与研究思考，并会随着新的经历持续更新。
+            Welcome to my homepage! I'm now a 3rd undergraduate student in Southeast University. Currently, I focus mainly on dynamic programming, stochastic optimization and statistical machine learning.
+            Works have been done are presented below for your reference. Continue to update...
           </p>
           <p>
             I am currently open to undergraduate research, internships, and
