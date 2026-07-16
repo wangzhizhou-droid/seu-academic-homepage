@@ -44,15 +44,19 @@ const publications = [
 const news = [
   {
     date: "2026.07",
-    content: "建立个人学术主页，用于整理课程项目、研究经历与学习笔记。",
+    content: "Paper accepted to 2026 IEEE CDC",
   },
   {
-    date: "2026.06",
-    content: "持续寻找本科生科研、学科竞赛与技术实习机会。",
+    date: "2026.05",
+    content: "Paper accepted to 2026 L-CSS",
   },
   {
     date: "2025.10",
-    content: "开始系统整理感兴趣的研究方向与相关课程资料。",
+    content: "Paper won the 2025 IEEE ICNSC Best Paper Finalist",
+  },
+  {
+    date: "2025.09",
+    content: "Paper accepted to 2025 IEEE ICNSC",
   },
 ];
 
