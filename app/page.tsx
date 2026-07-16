@@ -80,15 +80,6 @@ const projects = [
   },
 ];
 
-const coursework = [
-  "数据结构与算法",
-  "计算机组成原理",
-  "概率论与数理统计",
-  "线性代数",
-  "数据库系统",
-  "机器学习（按实际课程修改）",
-];
-
 const interests = [
   {
     text: "Dynamic Programming and Reinforcement Learning",
@@ -114,7 +105,6 @@ export default function Home() {
           <a href="#publications">Publications</a>
           <a href="#research">Research</a>
           <a href="#projects">Projects</a>
-          <a href="#coursework">Coursework</a>
           <a href="#honors">Honors</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -262,15 +252,6 @@ className="content-section"
               </li>
             ))}
           </ol>
-        </section>
-
-        <section className="content-section" id="coursework" aria-labelledby="coursework-title">
-          <h2 id="coursework-title">Selected Coursework</h2>
-          <div className="course-grid">
-            {coursework.map((course) => (
-              <span key={course}>{course}</span>
-            ))}
-          </div>
         </section>
 
         <section className="content-section" id="honors" aria-labelledby="honors-title">
