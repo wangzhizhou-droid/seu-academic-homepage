@@ -40,6 +40,7 @@ const publications = [
     ],
   },
 ];
+
 const news = [
   {
     date: "2026.07",
