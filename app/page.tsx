@@ -10,6 +10,36 @@ const profile = {
   graduation: "2027",
 };
 
+const publications = [
+  {
+    title:
+      "Finite-Time Optimal Policy Identification for the Stochastic Shortest Path Problem",
+    authors: "Wangzhi Zhou, Yuanqiu Mo, and Soura Dasgupta",
+    venue:
+      "IEEE Control Systems Letters, vol. 10, pp. 409–414",
+    year: "2026",
+    links: [
+      {
+        label: "DOI",
+        url: "https://doi.org/10.1109/LCSYS.2026.3697256",
+      },
+    ],
+  },
+  {
+    title:
+      "An Early Termination Strategy for the Distributed Biased Min-Consensus Protocol Under Disturbances",
+    authors: "Zicheng Huang*, Wangzhi Zhou*, and Yuanqiu Mo",
+    venue:
+      "2025 International Conference on Networking, Sensing and Control (ICNSC), pp. 181–186",
+    year: "2025",
+    links: [
+      {
+        label: "DOI",
+        url: "https://doi.org/10.1109/ICNSC66229.2025.00038",
+      },
+    ],
+  },
+];
 const news = [
   {
     date: "2026.07",
@@ -20,7 +50,7 @@ const news = [
     content: "持续寻找本科生科研、学科竞赛与技术实习机会。",
   },
   {
-    date: "2026.03",
+    date: "2025.10",
     content: "开始系统整理感兴趣的研究方向与相关课程资料。",
   },
 ];
