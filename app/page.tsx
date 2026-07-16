@@ -62,28 +62,22 @@ const news = [
 
 const projects = [
   {
-    title: "课程或科研项目题目",
-    period: "2026",
-    description:
-      "在这里用两到三句话说明问题背景、你的具体工作与最终结果。建议尽量写清数据、方法或可验证的成果。",
-    links: ["Project", "Code"],
-  },
-  {
-    title: "数据分析或工程实践题目",
-    period: "2025–2026",
-    description:
-      "可以放课程设计、竞赛、实验室任务或个人项目。项目规模不必很大，但需要体现你的思考和贡献。",
-    links: ["Report", "Code"],
-  },
-  {
-    title: "正在进行的研究兴趣探索",
+    title:
+      "Reinforcement Learning Agent Environment for Financial Applications",
     period: "Ongoing",
     description:
-      "记录你正在阅读的问题、想验证的想法或希望加入的研究方向。内容确定后，可替换为正式项目介绍。",
-    links: ["Notes"],
+      "Developing a reinforcement learning environment for financial decision-making, including state and action space design, reward modeling, transaction constraints, and agent evaluation.",
+    links: [],
+  },
+  {
+    title:
+      "Time-LLM Forecasting and Synthetic Data Generation",
+    period: "Ongoing",
+    description:
+      "Applying Time-LLM to time-series forecasting and exploring synthetic data generation for model training, evaluation, and robustness analysis.",
+    links: [],
   },
 ];
-
 const interests = [
   {
     text: "Dynamic Programming and Reinforcement Learning",
