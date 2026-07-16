@@ -281,9 +281,9 @@ className="content-section"
         <section className="content-section" id="honors" aria-labelledby="honors-title">
           <h2 id="honors-title">Honors &amp; Activities</h2>
           <ul>
-            <li>在这里填写奖学金、竞赛获奖、荣誉称号或重要的学生工作。</li>
-            <li>如果暂时没有内容，可以先写正在参与的实验室、社团或开源社区。</li>
-            <li>只保留能够核实、并且与你的学术或技术发展相关的经历。</li>
+            <li><strong>National Scholarship</strong>, Ministry of Education of the People&apos;s Republic of China, 2025.</li>
+            <li><strong>Best Paper Finalist</strong>, 2025 IEEE International Conference on Networking, Sensing and Control (ICNSC), 2025, for the paper
+            “An Early Termination Strategy for the Distributed Biased Min-Consensus Protocol Under Disturbances.”</li>
           </ul>
         </section>
 
