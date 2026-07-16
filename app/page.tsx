@@ -114,6 +114,7 @@ export default function Home() {
         <nav aria-label="页面导航">
           <a href="#home">Home</a>
           <a href="#biography">Biography</a>
+          <a href="#publications">Publications</a>
           <a href="#research">Research</a>
           <a href="#projects">Projects</a>
           <a href="#coursework">Coursework</a>
@@ -178,7 +179,43 @@ export default function Home() {
             interests overlap.
           </p>
         </section>
+        <section
+className="content-section"
+  id="publications"
+  aria-labelledby="publications-title"
+>
+  <h2 id="publications-title">Publications</h2>
 
+  <ol className="project-list">
+    {publications.map((publication) => (
+      <li key={publication.title}>
+        <div className="project-line">
+          <strong>{publication.title}</strong>
+          <span>{publication.year}</span>
+        </div>
+
+        <p>{publication.authors}</p>
+
+        <p>
+          <em>{publication.venue}</em>
+        </p>
+
+        <div className="resource-links">
+          {publication.links.map((link) => (
+            <a
+              key={link.label}
+              href={link.url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              [{link.label}]
+            </a>
+          ))}
+        </div>
+      </li>
+    ))}
+  </ol>
+</section>
         <section className="content-section" aria-labelledby="news-title">
           <h2 id="news-title">Recent News</h2>
           <ul className="news-list">
