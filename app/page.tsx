@@ -134,10 +134,12 @@ export default function Home() {
         </header>
 
         <section className="profile-intro" aria-labelledby="profile-title">
-          <div className="portrait-placeholder" aria-label="个人照片占位区域">
-            <strong>{profile.initials}</strong>
-            <span>PROFILE PHOTO</span>
-          </div>
+          <img
+            className="portrait-placeholder"
+            src="./profile.jpg"
+            alt="Portrait of Wangzhi Zhou"
+            style={{ objectFit: "cover" }}
+          />
           <div className="profile-facts" id="profile-title">
             <ul>
               <li>
