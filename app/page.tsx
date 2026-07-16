@@ -230,7 +230,8 @@ className="content-section"
         <section className="content-section" id="research" aria-labelledby="research-title">
           <h2 id="research-title">Research Interests</h2>
           <p>
-            我的研究兴趣仍在形成中。目前主要关注以下几个相互关联的方向：
+            My research interests are still evolving. Currently, I am particularly
+            interested in the following interconnected areas:
           </p>
           <ul className="interest-list">
             {interests.map((interest) => (
