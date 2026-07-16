@@ -91,16 +91,13 @@ const coursework = [
 
 const interests = [
   {
-    title: "Algorithms & Systems",
-    text: "算法、系统与实际计算问题之间的联系。",
+    text: "Dynamic Programming and Reinforcement Learning",
   },
   {
-    title: "Data & Intelligence",
-    text: "从数据中理解规律，并构建可靠、可解释的方法。",
+    text: "Stochastic Optimization",
   },
   {
-    title: "Interdisciplinary Problems",
-    text: "计算技术在工程、科学与社会问题中的应用。",
+    text: "Machine Learning: Online Learning and Probabilistic Graphical Models",
   },
 ];
 
