@@ -234,8 +234,8 @@ className="content-section"
           </p>
           <ul className="interest-list">
             {interests.map((interest) => (
-              <li key={interest.title}>
-                <strong>{interest.title}.</strong> {interest.text}
+              <li key={interest.text}>
+                {interest.text}
               </li>
             ))}
           </ul>
