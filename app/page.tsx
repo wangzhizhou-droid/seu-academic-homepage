@@ -240,9 +240,6 @@ className="content-section"
               </li>
             ))}
           </ul>
-          <p className="note">
-            注：这里应替换为你的真实兴趣，最好具体到 2–3 个问题，而不仅是宽泛的学科名称。
-          </p>
         </section>
 
         <section className="content-section" id="projects" aria-labelledby="projects-title">
